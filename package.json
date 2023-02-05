@@ -1,8 +1,8 @@
 {
+  "homepage": "https://umairzafar164.github.io/v1",
   "name": "v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fahadachaudhry.github.io/v2",
   "dependencies": {
     "@craco/craco": "^6.3.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -17,11 +17,11 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "craco build",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "craco test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

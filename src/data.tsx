@@ -117,7 +117,7 @@ const profile: IProfile = {
             position: "Full Stack Engineer",
             startDate: "Nov 2021",
             summary:
-                "Working on a full stack React Native app whose backend is coded in NodeJS woth Express Js and mongoDB. Also worked on a web based EHR and EMR solution called MediX. It was made on React Js, along with .Net core on the backend and Maria DB as the data layer. ",
+                "Working on a full stack React Native restaurant app whose backend is coded in NodeJS with Express Js and mongoDB.",
             website: "#",
         }
     ],
@@ -200,7 +200,7 @@ const profile: IProfile = {
             name: "MediX",
             imageUrl:
                 "https://www.templateshub.net/uploads/medi.jpg",
-            companyName: "Personal Experience",
+            companyName: "Octek",
             description: [
                 "A web based EHR and EMR solution called MediX. It was made on React Js, along with .Net core on the backend and Maria DB as the data layer. My primary responsibility was to work on robust frontend user interfaces which included modules ranging from doctors to in-patients and out-patients management, inventory and employee management, including user preferences and salary dispatching. The UI consisted of dashboards which showed doctor's statistics and provided in debt analysis on patients in-flow, patient’s recovery cycle and current workloads in different areas of the hospital.",
             ],
