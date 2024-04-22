@@ -90,7 +90,7 @@ const profile: IProfile = {
     ],
     email: "umairzafar164@gmail.com",
     bio: [
-        "I'm a Canadian-based React focused web developer who specializes in building exceptional digital experiences. Currently, I'm looking for a role and working on a Full Stack React Native project.",
+        "I'm a Canadian-based React focused web developer who specializes in building exceptional digital experiences. Currently, I'm working full-time as a frontend developer in Ontario, Canada.",
     ],
     skills: {
         languages: ["Javascript (ES6)", "TypeScript", "HTML", "CSS"],
@@ -101,6 +101,16 @@ const profile: IProfile = {
     },
     experiences: [
         {
+            shortName: "iConect",
+            companyName: "iConect",
+            endDate: "Present",
+            position: "UI Developer",
+            startDate: "April 2023",
+            summary:
+                "I am deeply engaged in crafting solutions using React, jQuery, and JavaScript alongside Typescript. A significant part of my responsibilities revolves around debugging code on a daily basis, ensuring seamless functionality, and enhancing user experience. Working extensively on an intricate project, I utilize GitLab and Visual Studio for version control and collaborative development. The dynamic nature of this project constantly challenges me to innovate and implement efficient solutions, contributing significantly to its ongoing success and evolution.",
+            website: "https://iconect.com/",
+        },
+        {
             shortName: "Octek",
             companyName: "Octek Pvt Ltd",
             endDate: "Nov 2022",
@@ -108,7 +118,7 @@ const profile: IProfile = {
             startDate: "Oct 2020",
             summary:
                 "Worked with clients from around the world on multiple projects as a frontend engineer. From React Js to Next Js, worked on jQuery while implemeting multiple latest UI libraries like AntDesign, MaterialUI Bootstrap and tools like redux.",
-            website: "https://octek.ca/",
+            website: "https://octek.co/",
         },
         {
             shortName: "Personal Experience",
@@ -179,7 +189,7 @@ const profile: IProfile = {
         {
             name: "CyberX",
             imageUrl:
-                "https://upwork-usw2-prod-assets-static.s3.us-west-2.amazonaws.com/org-logo/1552609223841312768",
+                "https://www.maltego.com/images/uploads/phishing-part-2-teaser.png",
             companyName: "Octek",
             description: [
                 "A website to alert users of phishing platforms, built with jQuery, materialize css as a UI library and canvas using chart Js. Added tons of new features, forms, pages, graphs, charts and DataTables in this project.",
